@@ -1,6 +1,5 @@
 Álbum da Copa - Parte 2
-
-- Sobre o projeto
+Sobre o projeto
 
 Este projeto faz parte da construção de uma API para gerenciamento de figurinhas de um álbum da Copa.
 
@@ -18,8 +17,7 @@ PostgreSQL
 
 O objetivo é que, nas próximas etapas, a API deixe de consumir diretamente o JSON e passe a consultar os dados diretamente no banco.
 
-- Tecnologias utilizadas
-- 
+Tecnologias utilizadas
 Python
 Flask
 PostgreSQL
@@ -27,8 +25,7 @@ JSON
 psycopg2
 Git/GitHub
 
-- Estrutura do projeto
-  
+Estrutura do projeto
 ALBUM-COPA/
 │
 ├── api.py
