@@ -19,6 +19,7 @@ PostgreSQL
 O objetivo é que, nas próximas etapas, a API deixe de consumir diretamente o JSON e passe a consultar os dados diretamente no banco.
 
 - Tecnologias utilizadas
+- 
 Python
 Flask
 PostgreSQL
@@ -27,6 +28,7 @@ psycopg2
 Git/GitHub
 
 - Estrutura do projeto
+  
 ALBUM-COPA/
 │
 ├── api.py
