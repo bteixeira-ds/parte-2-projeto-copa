@@ -1,31 +1,53 @@
-Álbum da Copa - Parte 2
-Sobre o projeto
+# Álbum da Copa - Parte 2
+
+## Sobre o projeto
 
 Este projeto faz parte da construção de uma API para gerenciamento de figurinhas de um álbum da Copa.
 
-Na Parte 1, os dados eram armazenados em um arquivo JSON.
+Na **Parte 1**, os dados eram armazenados em um arquivo **JSON**.
 
-Nesta Parte 2, o projeto está passando do armazenamento em JSON para PostgreSQL, iniciando a migração para um banco de dados relacional e preparando a aplicação para trabalhar com consultas mais avançadas.
+Na **Parte 2**, iniciou-se a migração do projeto para **PostgreSQL**, permitindo que os dados sejam armazenados em um banco de dados relacional e preparando a aplicação para consultas mais avançadas.
 
-Fluxo atual:
+---
 
+## Fluxo atual
+
+```text
 figurinhas.json
         ↓
 importar_figurinhas.py
         ↓
 PostgreSQL
+```
 
-O objetivo é que, nas próximas etapas, a API deixe de consumir diretamente o JSON e passe a consultar os dados diretamente no banco.
+Objetivo das próximas etapas:
 
-Tecnologias utilizadas
-Python
-Flask
+```text
 PostgreSQL
-JSON
-psycopg2
-Git/GitHub
+        ↓
+API Flask
+        ↓
+JavaScript
+        ↓
+Interface Web
+```
 
-Estrutura do projeto
+---
+
+## Tecnologias utilizadas
+
+- Python
+- Flask
+- PostgreSQL
+- JSON
+- psycopg2
+- Git/GitHub
+
+---
+
+## Estrutura do projeto
+
+```text
 ALBUM-COPA/
 │
 ├── api.py
